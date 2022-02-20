@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRÁCTICA DE FORMULARIO HTML</title>
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+
+    <form> <!-- Esta es la estructura base del formulario-->
+
+        <!--Tipos de input's-->
+
+        <label for="dni">Dni :</label><br> <!--Sirve para asociar con un input-->
+        <input type="number" id="dni" placeholder="Pon tu dni"><br> <!--Es para datos de entrada: texto o numero-->
+        <!--Los atributos son importantes ya que sirve para asignar los datos deentrada-->
+        <!--el asignarle un id me lleva a donde lo debo ingresar-->
+        <!--el placeholder pone en el cuadrito la instrucción escrita-->
+        <br>
+
+        <label>Nombre :</label><br>
+        <input type="text"><br>
+        <br>
+
+        <label>Contraseña :</label><br>
+        <input type="password"><br> <!--Así sale escondida la contraseña al ingresarla-->
+        <br>
+
+        <label>Email :</label><br>
+        <input type="email"><br> <!--Permite el ingreso del arroba-->
+        <br>
+
+        <label>Género :</label><br>
+        <!--Así se asigna la opción de seleccionar una de las dos bolitas-->
+        <input type="radio" name="sexo">Masculino<br>
+        <input type="radio" name="sexo">Femenino<br>
+        <br>
+
+        <label>Nivel de Estudios</label><br>
+        <input type="checkbox">Sin Estudios<br>
+        <input type="checkbox">Nivel Básico<br>
+        <input type="checkbox">Profesional<br>
+        <br>
+
+        <!--Así se pone la lista de opciones-->
+        <label>Nacionalidad</label><br>
+        <select name="" id="">
+            <option value="">Seleccione</option>
+            <option value="">México</option>
+            <option value="">USA</option>
+            <option value="">Canadá</option>
+            <option value="">Chile</option>
+            <option value="">Perú</option>
+            <option value="">Brasil</option>
+            <option value="">Argentina</option>
+        </select><br>
+        <br>
+
+        <!--El tipo de color-->
+        <label>Color favorito: </label><br>
+        <input type="color"><br>
+        <br>
+
+        <!--Fecha de nacimiento-->
+        <label>¿Cuándo naciste?</label><br>
+        <input type="date"><br>
+        <br>
+
+        <!--Dar la hora-->
+        <label>Da la hora</label><br>
+        <input type="time"><br>
+        <br>
+
+        <!--Solicitar archivos-->
+        <label>Sube la foto de tu mascota</label><br>
+        <input type="file"><br>
+        <br>
+
+        <!--Ingresar texto-->
+        <textarea name="" id=""></textarea>
+        <br>
+
+        <!--Limpiar el registro-->
+        <input type="reset"><br>
+        <br>
+
+        <input type="submit"><br><!--Es para solicitar que se envíen la info solicitada-->
+        <br>
+
+
+        <label>BASADO EN ELTUTORIAL DE Purito Codigo </label>
+
+
+
+
+    </form>
+
+
+
+
+</body>
+</html>
